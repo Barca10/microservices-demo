@@ -6,6 +6,7 @@ pipeline {
       steps{
         echo 'building the application...'
         bat "mvn clean"
+        bat "mvn build"
         }
       }
       stage("test"){
