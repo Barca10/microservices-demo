@@ -12,7 +12,7 @@ pipeline {
       stage("test"){
       steps{
         echo 'building the application...'
-        bat "mvn clean"
+        
         }
       }
       stage("deploy"){
